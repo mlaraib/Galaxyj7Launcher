@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="horizontal"
+	android:id="@+id/mainLayout"
+	android:background="#000"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:weightSum="10.0"
+	>
+ 
+    <RelativeLayout 
+	android:id="@+id/container"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content">
+	
+
+		
+        <LinearLayout 
+		android:orientation="horizontal"
+		android:id="@+id/bottom_layer"
+		android:layout_width="wrap_content"
+		android:layout_height="95dp" 
+		android:weightSum="5.0"
+		android:layout_alignParentBottom="true">
+		
+            <RelativeLayout 
+			android:layout_width="fill_parent"
+			android:layout_height="fill_parent"
+			android:layout_weight="1.0">
+			
+
+				
+                <TextView 
+				android:textSize="15sp"
+				android:textColor="@color/white"
+				android:gravity="center"
+				android:id="@+id/textViewPhone"
+				android:paddingBottom="15dp"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="Phone"
+				android:singleLine="true"
+				android:layout_alignParentBottom="true"
+				android:layout_centerHorizontal="true" />
+
+				<ImageView
+					android:id="@+id/taskbar_1"
+					android:padding="5dp"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:src="@mipmap/phone"
+					android:scaleType="center"
+					android:layout_above="@id/textViewPhone"
+					android:layout_centerInParent="true"
+					android:onClick="onClick" />
+				
+            </RelativeLayout>
+			
+            <RelativeLayout 
+			android:layout_width="fill_parent"
+			android:layout_height="fill_parent"
+			android:layout_weight="1.0">
+
+				
+                <TextView 
+				android:textSize="15sp"
+				android:textColor="@color/white"
+				android:gravity="center"
+				android:id="@+id/textViewContact"
+				android:paddingBottom="15dp"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="Contacts"
+				android:singleLine="true"
+				android:layout_alignParentBottom="true"
+				android:layout_centerHorizontal="true" 
+				/>
+
+				<ImageView
+					android:id="@+id/taskbar_2"
+					android:padding="5dp"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:src="@mipmap/contacts"
+					android:scaleType="center"
+					android:layout_above="@id/textViewContact"
+					android:layout_centerInParent="true"
+					android:onClick="onClick" />
+
+            </RelativeLayout>
+			
+			
+            <RelativeLayout 
+			android:layout_width="fill_parent"
+			android:layout_height="fill_parent"
+			android:layout_weight="1.0">
+				
+                <TextView 
+				android:textSize="15sp"
+				android:textColor="@color/white"
+				android:gravity="center"
+				android:id="@+id/textViewMessage"
+				android:paddingBottom="15dp"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="Messages" 
+				android:singleLine="true"
+				android:layout_alignParentBottom="true"
+				android:layout_centerHorizontal="true" />
+
+				<ImageView
+					android:id="@+id/taskbar_3"
+					android:padding="5dp"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:src="@mipmap/message"
+					android:scaleType="center"
+					android:layout_above="@id/textViewMessage"
+					android:layout_centerInParent="true"
+					android:onClick="onClick" />
+
+            </RelativeLayout>
+			
+            <RelativeLayout 
+			android:layout_width="fill_parent"
+			android:layout_height="fill_parent"
+			android:layout_weight="1.0">
+
+				
+                <TextView 
+				android:textSize="15sp"
+				android:textColor="@color/white"
+				android:gravity="center"
+				android:id="@+id/textViewInternet"
+				android:paddingBottom="15dp"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="Internet"
+				android:singleLine="true"
+				android:layout_alignParentBottom="true"
+				android:layout_centerHorizontal="true" />
+
+				<ImageView
+					android:id="@+id/taskbar_4"
+					android:padding="5dp"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:src="@mipmap/browser"
+					android:scaleType="center"
+					android:layout_above="@id/textViewInternet"
+					android:layout_centerInParent="true"
+					android:onClick="onClick" />
+				
+            </RelativeLayout>
+			
+            <RelativeLayout 
+			android:layout_width="fill_parent"
+			android:layout_height="fill_parent"
+			android:layout_weight="1.0">
+
+				
+                <TextView 
+				android:textSize="15sp"
+				android:textColor="@color/white"
+				android:gravity="center"
+				android:id="@+id/textViewApps"
+				android:paddingBottom="15dp" 
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="Apps"
+				android:singleLine="true"
+				android:layout_alignParentBottom="true"
+				android:layout_centerHorizontal="true" />
+
+				<ImageView
+					android:id="@+id/taskbar_5"
+					android:padding="5dp"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:src="@mipmap/apps"
+					android:scaleType="centerCrop"
+					android:layout_above="@id/textViewApps"
+					android:layout_centerInParent="true"
+					android:onClick="onClick" />
+
+            </RelativeLayout>
+        </LinearLayout>
+
+
+		<RelativeLayout
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_above="@id/bottom_layer">
+
+			<android.support.v4.view.ViewPager
+				android:id="@+id/pagerView"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content" />
+
+			<samsung.galaxy.s6.launcher.samsung.launcher.s6.theme.free.samsungj7launcher.launcher.customView.CircleIndicator
+				android:id="@+id/indicator_default"
+				android:layout_width="wrap_content"
+				android:layout_height="40dp"
+				android:layout_alignParentBottom="true"
+				android:layout_centerInParent="true" />
+
+		</RelativeLayout>
+        <SurfaceView 
+		android:id="@+id/surfaceView"
+		android:layout_width="1dp" 
+		android:layout_height="1dp" />
+    </RelativeLayout>
+</LinearLayout>

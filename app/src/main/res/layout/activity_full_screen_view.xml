@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:background="#fff"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	>
+ 
+    <ProgressBar 
+	android:id="@+id/pbLoader"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:layout_centerInParent="true"
+	 />
+	
+    <HorizontalScrollView
+	android:scrollbars="horizontal"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content">
+	
+        <LinearLayout 
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content">
+		
+            <ImageView 
+			android:id="@+id/imgFullscreen"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:scaleType="center" />
+        </LinearLayout>
+		
+		
+    </HorizontalScrollView>
+	
+	
+    <LinearLayout 
+	android:gravity="center_horizontal"
+	android:orientation="horizontal"
+	android:id="@+id/llSetWallpaper"
+	android:background="@drawable/btn_rounded_corner"
+	android:layout_width="match_parent"
+	android:layout_height="wrap_content"
+	android:layout_marginLeft="10dp"
+	android:layout_marginBottom="10dp"
+	android:layout_alignParentBottom="true" 
+	android:layout_centerHorizontal="true">
+	
+	
+        <ImageView 
+		android:layout_gravity="center_horizontal"
+		android:layout_width="25dp"
+		android:layout_height="25dp"
+		android:src="@drawable/ico_apply"
+		/>
+		
+        <TextView 
+		android:textSize="18dp"
+		android:textColor="#fff"
+		android:paddingLeft="10dp"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="@string/set_wallpaper" />
+    </LinearLayout>
+	
+    <LinearLayout 
+	android:gravity="center"
+	android:orientation="horizontal"
+	android:id="@+id/llDownloadWallpaper"
+	android:background="@drawable/btn_rounded_corner"
+	android:visibility="visible"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:layout_marginRight="10dp"
+	android:layout_marginBottom="10dp"
+	android:layout_alignParentRight="true" 
+	android:layout_alignParentBottom="true">
+	
+	
+        <ImageView
+		android:layout_width="25dp"
+		android:layout_height="25dp"
+		android:src="@drawable/ico_apply"/>
+		
+        <TextView 
+		
+		android:textSize="18dp"
+		android:textColor="#fff"
+		android:paddingLeft="10dp"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="@string/download_wallpaper" />
+    </LinearLayout>
+</RelativeLayout>

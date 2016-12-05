@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set
+	android:interpolator="@android:anim/overshoot_interpolator"
+	android:shareInterpolator="true"
+	xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <scale 
+    	android:duration="@integer/transition_animation_duration" 
+    	android:pivotX="@dimen/transition_center_column_2" 
+    	android:pivotY="@dimen/transition_center_4row_0" 
+    	android:fromXScale="0.2" 
+    	android:toXScale="1.0" 
+    	android:fromYScale="0.2" 
+    	android:toYScale="1.0" />
+
+    <alpha 
+    	android:duration="@integer/transition_animation_fadein_duration" 
+    	android:fromAlpha="0.0" 
+    	android:toAlpha="1.0" />
+</set>

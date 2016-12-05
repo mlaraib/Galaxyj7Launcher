@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:background="#fff"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	>
+ 
+    <LinearLayout 
+	android:orientation="vertical"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:weightSum="10.0">
+	
+        <GridView 
+		android:id="@+id/vgv"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:horizontalSpacing="20dp"
+		android:verticalSpacing="10dp"
+		android:numColumns="4"
+		android:layout_weight="1.0"
+		android:layout_alignParentTop="true" />
+		
+        <RadioGroup 
+		android:gravity="bottom"
+		android:orientation="horizontal"
+		android:id="@+id/group"
+		android:background="@mipmap/transparent_box"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:weightSum="3.0"
+		android:layout_weight="9.0"
+		android:layout_alignParentBottom="true">
+		
+            <RadioButton 
+			android:id="@+id/radioNone"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="None"
+			android:layout_weight="1.0" />
+			
+            <RadioButton 
+			android:id="@+id/radioCircle"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="Circle"
+			android:layout_weight="1.0" />
+			
+            <RadioButton 
+			android:id="@+id/radioSquare"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="Square"
+			android:layout_weight="1.0" />
+        </RadioGroup>
+    </LinearLayout>
+</RelativeLayout>

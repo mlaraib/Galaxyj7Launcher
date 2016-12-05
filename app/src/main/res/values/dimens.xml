@@ -1,0 +1,191 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="abc_alert_dialog_button_bar_height">48.0dip</dimen>
+    <dimen name="abc_action_bar_default_height_material">56.0dip</dimen>
+    <dimen name="abc_action_bar_progress_bar_size">40.0dip</dimen>
+    <dimen name="abc_text_size_subtitle_material_toolbar">16.0dip</dimen>
+    <dimen name="abc_text_size_title_material_toolbar">20.0dip</dimen>
+    <dimen name="abc_config_prefDialogWidth">320.0dip</dimen>
+    <item type="dimen" name="abc_dialog_fixed_height_major">79.99999%</item>
+    <item type="dimen" name="abc_dialog_fixed_height_minor">100.0%</item>
+    <dimen name="abc_dialog_fixed_width_major">320.0dip</dimen>
+    <dimen name="abc_dialog_fixed_width_minor">320.0dip</dimen>
+    <item type="dimen" name="abc_dialog_min_width_major">65.0%</item>
+    <item type="dimen" name="abc_dialog_min_width_minor">94.99999%</item>
+    <dimen name="abc_search_view_text_min_width">160.0dip</dimen>
+    <dimen name="abc_action_bar_content_inset_material">16.0dip</dimen>
+    <dimen name="abc_action_bar_default_padding_end_material">0.0dip</dimen>
+    <dimen name="abc_action_bar_default_padding_start_material">0.0dip</dimen>
+    <dimen name="abc_switch_padding">3.0dip</dimen>
+    <dimen name="activity_horizontal_margin">16.0dip</dimen>
+    <dimen name="abc_action_bar_icon_vertical_padding_material">16.0dip</dimen>
+    <dimen name="abc_action_bar_overflow_padding_end_material">10.0dip</dimen>
+    <dimen name="abc_action_bar_overflow_padding_start_material">6.0dip</dimen>
+    <dimen name="abc_action_bar_stacked_max_height">48.0dip</dimen>
+    <dimen name="abc_action_bar_stacked_tab_max_width">180.0dip</dimen>
+    <dimen name="abc_action_bar_subtitle_bottom_margin_material">5.0dip</dimen>
+    <dimen name="abc_action_bar_subtitle_top_margin_material">-3.0dip</dimen>
+    <dimen name="abc_action_button_min_height_material">48.0dip</dimen>
+    <dimen name="abc_action_button_min_width_material">48.0dip</dimen>
+    <dimen name="abc_action_button_min_width_overflow_material">36.0dip</dimen>
+    <item type="dimen" name="abc_button_inset_horizontal_material">@dimen/abc_control_inset_material</item>
+    <dimen name="abc_button_inset_vertical_material">6.0dip</dimen>
+    <dimen name="abc_button_padding_horizontal_material">8.0dip</dimen>
+    <item type="dimen" name="abc_button_padding_vertical_material">@dimen/abc_control_padding_material</item>
+    <dimen name="abc_control_corner_material">2.0dip</dimen>
+    <dimen name="abc_control_inset_material">4.0dip</dimen>
+    <dimen name="abc_control_padding_material">4.0dip</dimen>
+    <dimen name="abc_dialog_list_padding_vertical_material">8.0dip</dimen>
+    <dimen name="abc_dialog_padding_material">24.0dip</dimen>
+    <dimen name="abc_dialog_padding_top_material">18.0dip</dimen>
+    <item type="dimen" name="abc_disabled_alpha_material_dark">0.3</item>
+    <item type="dimen" name="abc_disabled_alpha_material_light">0.26</item>
+    <dimen name="abc_dropdownitem_icon_width">32.0dip</dimen>
+    <dimen name="abc_dropdownitem_text_padding_left">8.0dip</dimen>
+    <dimen name="abc_dropdownitem_text_padding_right">8.0dip</dimen>
+    <dimen name="abc_edit_text_inset_bottom_material">7.0dip</dimen>
+    <dimen name="abc_edit_text_inset_horizontal_material">4.0dip</dimen>
+    <dimen name="abc_edit_text_inset_top_material">10.0dip</dimen>
+    <dimen name="abc_floating_window_z">16.0dip</dimen>
+    <item type="dimen" name="abc_list_item_padding_horizontal_material">@dimen/abc_action_bar_content_inset_material</item>
+    <dimen name="abc_panel_menu_list_width">296.0dip</dimen>
+    <dimen name="abc_search_view_preferred_width">320.0dip</dimen>
+    <dimen name="abc_seekbar_track_background_height_material">2.0dip</dimen>
+    <dimen name="abc_seekbar_track_progress_height_material">2.0dip</dimen>
+    <dimen name="abc_select_dialog_padding_start_material">20.0dip</dimen>
+    <dimen name="abc_text_size_body_1_material">14.0sp</dimen>
+    <dimen name="abc_text_size_body_2_material">14.0sp</dimen>
+    <dimen name="abc_text_size_button_material">14.0sp</dimen>
+    <dimen name="abc_text_size_caption_material">12.0sp</dimen>
+    <dimen name="abc_text_size_display_1_material">34.0sp</dimen>
+    <dimen name="abc_text_size_display_2_material">45.0sp</dimen>
+    <dimen name="abc_text_size_display_3_material">56.0sp</dimen>
+    <dimen name="abc_text_size_display_4_material">112.0sp</dimen>
+    <dimen name="abc_text_size_headline_material">24.0sp</dimen>
+    <dimen name="abc_text_size_large_material">22.0sp</dimen>
+    <dimen name="abc_text_size_medium_material">18.0sp</dimen>
+    <dimen name="abc_text_size_menu_material">16.0sp</dimen>
+    <dimen name="abc_text_size_small_material">14.0sp</dimen>
+    <dimen name="abc_text_size_subhead_material">16.0sp</dimen>
+    <dimen name="abc_text_size_title_material">20.0sp</dimen>
+    <dimen name="activity_vertical_margin">16.0dip</dimen>
+    <dimen name="alert_width">290.0dip</dimen>
+    <dimen name="back_btn_height">40.0dip</dimen>
+    <dimen name="back_btn_width">40.0dip</dimen>
+    <dimen name="bottom_bar_height">100.0dip</dimen>
+    <dimen name="cell_img_height">50.0dip</dimen>
+    <dimen name="cell_img_width">50.0dip</dimen>
+    <dimen name="checkbox_border_width">2.0dip</dimen>
+    <dimen name="checkbox_corner_radius">2.0dip</dimen>
+    <dimen name="checkbox_height">48.0dip</dimen>
+    <dimen name="checkbox_mark_bottom_padding">5.0dip</dimen>
+    <dimen name="checkbox_mark_left_right_padding">3.0dip</dimen>
+    <dimen name="checkbox_mark_top_padding">4.0dip</dimen>
+    <dimen name="checkbox_mark_width">2.0dip</dimen>
+    <dimen name="checkbox_ripple_radius">24.0dip</dimen>
+    <dimen name="checkbox_thumb_size">20.0dip</dimen>
+    <dimen name="checkbox_width">48.0dip</dimen>
+    <dimen name="circle_button_height">72.0dip</dimen>
+    <dimen name="circle_button_width">72.0dip</dimen>
+    <dimen name="circular_progress_border_width">4.0dip</dimen>
+    <dimen name="circular_progress_large_size">60.0dip</dimen>
+    <dimen name="circular_progress_normal_size">48.0dip</dimen>
+    <dimen name="circular_progress_small_size">36.0dip</dimen>
+    <dimen name="common_circle_width">3.0dip</dimen>
+    <item type="dimen" name="disabled_alpha_material_dark">0.3</item>
+    <item type="dimen" name="disabled_alpha_material_light">0.26</item>
+    <dimen name="fab_margin">16.0dip</dimen>
+    <dimen name="floating_edit_text_underline_height">1.0dip</dimen>
+    <dimen name="floating_edit_text_underline_highlighted_height">2.0dip</dimen>
+    <dimen name="folder_name_height">40.0dip</dimen>
+    <dimen name="folder_page_bg_height">300.0dip</dimen>
+    <dimen name="folder_page_bg_width">300.0dip</dimen>
+    <dimen name="folder_page_height">260.0dip</dimen>
+    <dimen name="folder_page_width">300.0dip</dimen>
+    <dimen name="folder_title_frame_height">60.0dip</dimen>
+    <dimen name="folder_title_frame_width">300.0dip</dimen>
+    <item type="dimen" name="highlight_alpha_material_colored">0.26</item>
+    <item type="dimen" name="highlight_alpha_material_dark">0.2</item>
+    <item type="dimen" name="highlight_alpha_material_light">0.12</item>
+    <dimen name="home_indicator_bar_height">15.0dip</dimen>
+    <dimen name="home_indicator_height">21.0dip</dimen>
+    <dimen name="home_searchbar_height">30.0dip</dimen>
+    <dimen name="home_web_searchbar_height">50.0dip</dimen>
+    <dimen name="item_text_height">14.0dip</dimen>
+    <dimen name="linear_progress_line_width">4.0dip</dimen>
+    <dimen name="notification_large_icon_height">64.0dip</dimen>
+    <dimen name="notification_large_icon_width">64.0dip</dimen>
+    <dimen name="notification_subtext_size">12.0dip</dimen>
+    <dimen name="paper_button_corner_radius">2.0dip</dimen>
+    <dimen name="paper_padding">7.0dip</dimen>
+    <dimen name="paper_text_size">15.0sp</dimen>
+    <dimen name="progress_circle_radius">34.0dip</dimen>
+    <dimen name="radio_border_radius">10.0dip</dimen>
+    <dimen name="radio_height">48.0dip</dimen>
+    <dimen name="radio_ripple_radius">24.0dip</dimen>
+    <dimen name="radio_stroke_width">2.0dip</dimen>
+    <dimen name="radio_thumb_radius">6.0dip</dimen>
+    <dimen name="radio_width">48.0dip</dimen>
+    <dimen name="set_desktop_dialog_button_height">50.0dip</dimen>
+    <dimen name="set_desktop_dialog_message_height">50.0dip</dimen>
+    <dimen name="set_desktop_dialog_title_bar_height">90.0dip</dimen>
+    <dimen name="set_desktop_dialog_title_height">120.0dip</dimen>
+    <dimen name="setting_group_gap">20.0dip</dimen>
+    <dimen name="setting_row_height">50.0dip</dimen>
+    <dimen name="setting_text_title_size">17.0sp</dimen>
+    <dimen name="slider_bar_height">2.0dip</dimen>
+    <dimen name="slider_thumb_border_width">2.0dip</dimen>
+    <dimen name="slider_thumb_radius">10.0dip</dimen>
+    <dimen name="slider_thumb_ripple_radius">30.0dip</dimen>
+    <dimen name="switch_height">48.0dip</dimen>
+    <dimen name="switch_ripple_max_radius">24.0dip</dimen>
+    <dimen name="switch_stroke_width">2.0dip</dimen>
+    <dimen name="switch_thumb_radius">10.0dip</dimen>
+    <dimen name="switch_track_width">2.0dip</dimen>
+    <dimen name="switch_width">86.0dip</dimen>
+    <dimen name="tab_nav_button_width">36.0dip</dimen>
+    <dimen name="tab_text_size">15.0sp</dimen>
+    <dimen name="tab_underline_height">5.0dip</dimen>
+    <dimen name="title_bar_height">60.0dip</dimen>
+    <dimen name="track_slider_bar_height">2.0dip</dimen>
+    <dimen name="track_slider_ripple_radius">20.0dip</dimen>
+    <dimen name="track_slider_thumb_radius">10.0dip</dimen>
+    <item type="dimen" name="transition_center_4row_0">12.707996%</item>
+    <item type="dimen" name="transition_center_4row_1">30.208004%</item>
+    <item type="dimen" name="transition_center_4row_2">47.708%</item>
+    <item type="dimen" name="transition_center_4row_3">65.20799%</item>
+    <item type="dimen" name="transition_center_5row_0">10.898995%</item>
+    <item type="dimen" name="transition_center_5row_1">26.081001%</item>
+    <item type="dimen" name="transition_center_5row_2">41.262997%</item>
+    <item type="dimen" name="transition_center_5row_3">56.44599%</item>
+    <item type="dimen" name="transition_center_5row_4">71.628%</item>
+    <item type="dimen" name="transition_center_column_0">14.607%</item>
+    <item type="dimen" name="transition_center_column_1">38.171005%</item>
+    <item type="dimen" name="transition_center_column_2">61.737%</item>
+    <item type="dimen" name="transition_center_column_3">85.301%</item>
+    <item type="dimen" name="transition_dockbar_center_column_1_0">50.0%</item>
+    <item type="dimen" name="transition_dockbar_center_column_3_0">26.343%</item>
+    <item type="dimen" name="transition_dockbar_center_column_3_1">50.0%</item>
+    <item type="dimen" name="transition_dockbar_center_column_3_2">73.472%</item>
+    <item type="dimen" name="transition_dockbar_center_row">86.602%</item>
+    <item type="dimen" name="transition_dockbar_pivot_column_1_0">50.0%</item>
+    <item type="dimen" name="transition_dockbar_pivot_column_3_0">20.429003%</item>
+    <item type="dimen" name="transition_dockbar_pivot_column_3_1">50.0%</item>
+    <item type="dimen" name="transition_dockbar_pivot_column_3_2">79.34%</item>
+    <item type="dimen" name="transition_pivot_4row_0">5.4419994%</item>
+    <item type="dimen" name="transition_pivot_4row_1">27.317%</item>
+    <item type="dimen" name="transition_pivot_4row_2">49.192%</item>
+    <item type="dimen" name="transition_pivot_4row_3">71.067%</item>
+    <item type="dimen" name="transition_pivot_5row_0">3.9319992%</item>
+    <item type="dimen" name="transition_pivot_5row_1">21.791004%</item>
+    <item type="dimen" name="transition_pivot_5row_2">40.768005%</item>
+    <item type="dimen" name="transition_pivot_5row_3">59.747005%</item>
+    <item type="dimen" name="transition_pivot_5row_4">78.72499%</item>
+    <item type="dimen" name="transition_pivot_column_0">5.759001%</item>
+    <item type="dimen" name="transition_pivot_column_1">35.213997%</item>
+    <item type="dimen" name="transition_pivot_column_2">64.67099%</item>
+    <item type="dimen" name="transition_pivot_column_3">94.126%</item>
+    <item type="dimen" name="transition_scale">5.0</item>
+    <dimen name="wallpaper_preview_btn_height">60.0dip</dimen>
+
+</resources>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="abc_max_action_buttons">2</integer>
+    <integer name="abc_config_activityDefaultDur">220</integer>
+    <integer name="abc_config_activityShortDur">150</integer>
+    <integer name="activity_transition_time">300</integer>
+    <integer name="app_enter_fade_duration">150</integer>
+    <integer name="app_exit_fade_start_offset">250</integer>
+    <integer name="app_transition_time">300</integer>
+    <integer name="cancel_button_image_alpha">127</integer>
+    <integer name="card_flip_time_full">300</integer>
+    <integer name="card_flip_time_half">150</integer>
+    <integer name="circular_progress_max">100</integer>
+    <integer name="column_count">4</integer>
+    <integer name="dialog_out_animation_time">250</integer>
+    <integer name="folder_open_animation_duration">400</integer>
+    <integer name="folder_open_title_fade_in_duration">250</integer>
+    <integer name="folder_open_title_fade_in_start_offset">250</integer>
+    <integer name="google_play_services_version">9683000</integer>
+    <integer name="linear_progress_max">100</integer>
+    <integer name="status_bar_notification_info_maxnum">999</integer>
+    <integer name="tab_max_column">4</integer>
+    <integer name="transition_animation_duration">400</integer>
+    <integer name="transition_animation_fadein_duration">270</integer>
+</resources>
